@@ -1,0 +1,163 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url("../images/bannerpro.jpg");
+  height: 200px;
+  width: 1400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+  position: relative;
+   left:0px;
+   bottom:0px;
+   height:120px;
+   width:100%;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighbourhood-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.neighbourhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+	text-align: center;
+}
+
+.neighbourhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+#stage {
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+			
+#background{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: url("../images/Games/background.png");
+}
+			
+#cannon {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 270px;
+	left: 140px;
+	background-image: url("../images/Games/cannon.png");
+	
+	
+}
+
+#alien {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+	left: 80px;
+	background-image: url("../images/Games/alien.png");
+	
+	/*Transition*/
+	-webkit-transition: left 0.5s ease-out 0s;
+  -moz-transition: left 0.5s ease-out 0s;
+  transition: left 0.5s ease-out 0s;
+}
+
+#missile {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 240px;
+	left: 145px;
+	background-image: url("../images/Games/missile.png");
+}
+			
+
+button {
+	font-family: Arial, Helvetica, san-serif;
+	font-size: 14px;
+	color: #fff;
+	padding: 10px 20px;
+	border: 2px solid #000;
+	cursor: pointer;
+				
+	/* Changes how rounded the corners should be */
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+				
+	/*creates a gradient from top to bottom, starting with #a3a3a3 to #000*/
+	background:-webkit-linear-gradient(top, #a3a3a3, #000);
+	background:-moz-linear-gradient(top, #a3a3a3, #000);
+	background: linear-gradient(top, #a3a3a3, #000);
+				
+	/*drop shadow effect, box-shadow:horizontalOffset verticalOffset blurriness color*/
+	-webkit-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+				
+	/*prevents the user from selecting the button text*/
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+				
+button:hover {
+	background: -webkit-linear-gradient(top, #acc7a3, #506651);
+	background: -moz-linear-gradient(top, #acc7a3, #506651);
+	background: linear-gradient(top, #acc7a3, 506651);
+}
+				
+button:active {
+	background: -webkit-linear-gradient(top, #858565, #c5c9a9);
+	background: -moz-linear-gradient(top, #858565, #c5c9a9);
+	background: linear-gradient(top, #858565, #c5c9a9);
+}
